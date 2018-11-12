@@ -14,6 +14,10 @@ public class Hero extends LivingThing{
     private int attack;
     private boolean dead;
 
+    public boolean isDead() {
+        return dead;
+    }
+
     public int getHitPoint(){
         return  hitPoint;
     }
