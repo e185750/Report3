@@ -14,18 +14,6 @@ public class Hero extends LivingThing{
     private int attack;
     private boolean dead;
 
-
-
-    public int getHitPoint(){
-        return  hitPoint;
-    }
-
-    public void  setHitPoint(int hitPoint){
-        this.hitPoint = hitPoint;
-    }
-
-
-
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name ヒーロー名

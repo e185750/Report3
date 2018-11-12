@@ -40,16 +40,6 @@ public class Enemy extends LivingThing {
     }
 
 
-
-    public boolean getDead(){
-        return dead;
-    }
-
-    public void  setDead(boolean dead){
-        this.dead = dead;
-    }
-
-
     /**
      * Heroへ攻撃するメソッド。
      * attackに応じて乱数でダメージを算出し、hero.wounded()によりダメージ処理を実行。
